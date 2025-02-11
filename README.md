@@ -1,6 +1,6 @@
-## Getting Started
+# Getting Started
 
-# For development:
+## For development:
 
 First, clone this repository project:
 
@@ -23,7 +23,7 @@ bun dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 
-# For User to Usage API
+## For User to Usage API
 
 Access the url to usage this API free:
 
