@@ -27,4 +27,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 Access the url to usage this API free:
 
-[text](https://api-jadwal-sholat-seven.vercel.app)
+[Visit this site](https://api-jadwal-sholat-seven.vercel.app)
