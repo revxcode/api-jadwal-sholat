@@ -1,0 +1,55 @@
+{
+    "openapi": "3.1.0",
+    "info": {
+        "title": "API Documentation",
+        "version": "1.0.0",
+        "description": "API documentation for prayer schedule reminder",
+        "contact": {
+            "name": "API Support",
+            "email": "support@example.com"
+        }
+    },
+    "servers": [
+        {
+            "url": "http://localhost:3000/api",
+            "description": "Local development server"
+        }
+    ],
+    "paths": {
+        "/api/prayer-times?city=Jakarta": {
+            "get": {
+                "summary": "Get prayer times",
+                "description": "Returns a list of registered users",
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "Fajr": {
+                                            "type": "string"
+                                        },
+                                        "Dhuhr": {
+                                            "type": "string"
+                                        },
+                                        "Asr": {
+                                            "type": "string"
+                                        },
+                                        "Maghrib": {
+                                            "type": "string"
+                                        },
+                                        "Isha": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
